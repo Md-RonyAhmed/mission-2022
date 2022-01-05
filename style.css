@@ -3,8 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  margin: 7%;
+body {
   height: 100vh;
 }
 h1,
@@ -20,31 +19,32 @@ p {
   font-family: "Inter", sans-serif;
 }
 
-.flexible-container{
+.flexible-container {
   display: flex;
+  margin: 2rem 5rem;
 }
-.left-sec{
+.left-sec {
   width: 50%;
 }
-.right-sec{
+.right-sec {
   width: 50%;
+  padding-left: 20%;
 }
 
-.right-sec img{
-  width: 85%;
-  padding-left: 25%;
+.right-sec img {
+  width: 95%;
 }
-.orange{
+.orange {
   color: orange;
 }
-.left-border{
+.left-border {
   border-left: 3px solid #ff5959;
   padding-left: 10px;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 2.1rem;
   margin-top: 25px;
 }
-.btn-design{
+.btn-design {
   text-decoration: none;
   background: #ff5959;
   color: white;
@@ -52,7 +52,73 @@ p {
   margin: 10px 0px;
   border-radius: 5px;
 }
-.left-sec p{
+.left-sec p {
   margin: 25px 0px;
   line-height: 1.5em;
+}
+.left-card {
+  width: 30%;
+  padding: 3%;
+  background: #edf5f6;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 25px grey;
+  
+}
+.left-card:hover {
+  width: 30%;
+  padding: 3%;
+  background: #edf5f6;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey; 
+}
+.right-card {
+  width: 30%;
+  padding: 3%;
+  background: #ffeeee;
+  border-radius: 10px;
+  margin-bottom: 4%;
+  box-shadow: 10px 10px 25px grey;
+}
+
+.right-card:hover {
+  width: 30%;
+  padding: 3%;
+  background: #ffeeee;
+  border-radius: 10px;
+  margin-bottom: 4%;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.middle-card {
+  width: 30%;
+  padding: 3%;
+  background: #fff4d6;
+  margin-right: 4%;
+  border-radius: 10px;
+  margin-bottom: 4%;
+  box-shadow: 10px 10px 25px grey;
+}
+
+.middle-card:hover {
+  width: 30%;
+  padding: 3%;
+  background: #fff4d6;
+  margin-right: 4%;
+  border-radius: 10px;
+  margin-bottom: 4%;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.ilustrator-size {
+  width: 30%;
+}
+
+#mission{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.1rem ;
 }
