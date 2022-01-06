@@ -47,7 +47,7 @@ p {
   text-decoration: none;
   background: #ff5959;
   color: white;
-  padding: 0.3em 1.2em;
+  padding: 6px 30px;
   margin: 10px 0px;
   margin-right: 20px;
   border-radius: 5px;
@@ -57,7 +57,7 @@ p {
   text-decoration: none;
   background: black;
   color: tomato;
-  padding: 0.4em 1.3em;
+  padding: 7px 32px;
   margin: 10px 0px;
   margin-right: 16px;
   border-radius: 5px;
