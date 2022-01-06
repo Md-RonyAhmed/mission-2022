@@ -49,7 +49,7 @@ p {
   color: white;
   padding: 0.8em 2em;
   margin: 10px 0px;
-  margin-right:20px ;
+  margin-right: 20px;
   border-radius: 5px;
 }
 
@@ -199,38 +199,36 @@ p {
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: bottom ;
+  background-position-y: bottom;
   background-size: 15rem;
 }
 
-.image-restraunts{
+.image-restraunts {
   width: 60%;
-  border-radius:15px;
-
+  border-radius: 15px;
 }
-.bg-4{
+.bg-4 {
   background-image: url(images/shapes/shape-8.png);
   background-repeat: no-repeat;
   background-position-x: left;
   background-size: 14%;
 }
-.top a{
+.top a {
   text-decoration: none;
   background-color: aqua;
-  padding: .4rem 1rem;
+  padding: 0.4rem 1rem;
   color: black;
-  border-radius:5px;
+  border-radius: 5px;
   font-weight: 800;
   font-size: large;
 }
-.top a:hover{
+.top a:hover {
   text-decoration: none;
   background-color: tomato;
-  padding: .5rem 1.1rem;
-  color:white;
-  border-radius:5px;
+  padding: 0.5rem 1.1rem;
+  color: white;
+  border-radius: 5px;
   font-weight: 700;
   font-size: large;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
-
