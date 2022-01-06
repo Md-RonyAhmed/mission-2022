@@ -21,7 +21,7 @@ p {
 
 .flexible-container {
   display: flex;
-  margin: 3rem 5rem;
+  margin: 3.5rem 5rem;
 }
 .left-sec {
   width: 50%;
@@ -30,7 +30,6 @@ p {
   width: 50%;
   padding-left: 20%;
 }
-
 .right-sec img {
   width: 98%;
 }
@@ -48,19 +47,21 @@ p {
   text-decoration: none;
   background: #ff5959;
   color: white;
-  padding: .8em 2em;
+  padding: 0.8em 2em;
   margin: 10px 0px;
+  margin-right:20px ;
   border-radius: 5px;
 }
 
 .btn-design:hover {
   text-decoration: none;
-  background:black;
+  background: black;
   color: tomato;
-  padding: .8em 2em;
+  padding: 0.9em 2.1em;
   margin: 10px 0px;
+  margin-right: 20px;
   border-radius: 5px;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 .left-sec p {
   margin: 25px 0px;
@@ -75,7 +76,6 @@ p {
   line-height: 1.5em;
   border-radius: 10px;
   box-shadow: 10px 10px 25px grey;
-  
 }
 .left-card:hover {
   width: 30%;
@@ -85,7 +85,7 @@ p {
   margin-bottom: 4%;
   border-radius: 10px;
   line-height: 1.5em;
-  box-shadow: 5px 5px 10px grey; 
+  box-shadow: 5px 5px 10px grey;
 }
 .right-card {
   width: 30%;
@@ -96,15 +96,15 @@ p {
   line-height: 1.5em;
   box-shadow: 10px 10px 25px grey;
 }
-.right-card h3{
+.right-card h3 {
   padding: 15px 0;
 }
-.middle-card h3{
-padding: 15px 0;
+.middle-card h3 {
+  padding: 15px 0;
 }
 
-.left-card h3{
-padding: 15px 0;
+.left-card h3 {
+  padding: 15px 0;
 }
 
 .right-card:hover {
@@ -143,50 +143,94 @@ padding: 15px 0;
   width: 30%;
 }
 
-.mission{
+.mission {
   text-align: center;
   font-weight: 700;
-  font-size: 2.1rem ;
+  font-size: 2.1rem;
 }
 
-
-
-.image-size{
+.image-size {
   transform: scale(1);
-  width: 32%;
+  width: 30%;
   height: 50vh;
   border-radius: 15px;
-  transition: .9s ease-in-out;
+  transition: 0.9s ease-in-out;
 }
-.image-size:hover{
+.image-size:hover {
   transform: scale(1.1);
 }
 
-.third-side{
+.third-side {
   width: 80%;
   margin: 2em 5em;
   padding: 4% 0;
 }
 
-.third-side p{
+.third-side p {
   padding-bottom: 1.9rem;
   line-height: 1.5em;
 }
 
-.third-side h3{
+.third-side h3 {
   margin: 20px 0;
   font-weight: 700;
   font-size: 1.6em;
 }
 
-#footer-sec{
+#footer-sec {
   background-color: black;
   color: white;
   text-align: center;
   padding: 3rem 0;
 }
 
-#footer-sec h2{
+#footer-sec h2 {
   padding-bottom: 1.3em;
   font-style: italic;
-} 
+}
+
+.bg-1 {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: 15rem;
+}
+.bg-2 {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom ;
+  background-size: 15rem;
+}
+
+.image-restraunts{
+  width: 60%;
+  border-radius:15px;
+
+}
+.bg-4{
+  background-image: url(images/shapes/shape-8.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: 14%;
+}
+.top a{
+  text-decoration: none;
+  background-color: aqua;
+  padding: .4rem 1rem;
+  color: black;
+  border-radius:5px;
+  font-weight: 800;
+  font-size: large;
+}
+.top a:hover{
+  text-decoration: none;
+  background-color: tomato;
+  padding: .5rem 1.1rem;
+  color:white;
+  border-radius:5px;
+  font-weight: 700;
+  font-size: large;
+  transition: .5s ease-in-out;
+}
+
